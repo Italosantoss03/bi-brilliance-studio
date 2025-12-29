@@ -32,16 +32,14 @@ const HeroSection = () => {
 
           {/* Main Heading */}
           <h1 className="font-display text-5xl md:text-7xl font-bold leading-tight mb-6 animate-fade-up opacity-0 delay-100">
-            Transformando{" "}
-            <span className="text-gradient">dados</span>
-            <br />
-            em decisões estratégicas
+            Olá, eu sou{" "}
+            <span className="text-gradient">Ítalo Santos</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up opacity-0 delay-200">
-            Desenvolvo dashboards e soluções de BI que revelam insights 
-            acionáveis e impulsionam resultados de negócio.
+            Especialista em Power BI e SQL, transformando dados 
+            em decisões estratégicas para impulsionar negócios.
           </p>
 
           {/* CTA Buttons */}

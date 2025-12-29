@@ -10,19 +10,14 @@ const SkillsSection = () => {
 
   const certifications = [
     {
-      title: "Microsoft Power BI PL-300",
-      issuer: "Microsoft",
+      title: "Especialização em Power BI",
+      issuer: "Especialização",
       year: "2024",
     },
     {
-      title: "SQL for Data Science",
-      issuer: "Coursera",
-      year: "2023",
-    },
-    {
-      title: "Data Analytics Professional",
-      issuer: "Google",
-      year: "2023",
+      title: "Especialização em SQL",
+      issuer: "Especialização",
+      year: "2024",
     },
   ];
 
@@ -97,12 +92,17 @@ const SkillsSection = () => {
               ))}
             </div>
 
-            {/* Education placeholder */}
-            <div className="mt-8 p-6 rounded-xl border border-dashed border-border">
-              <h4 className="font-semibold mb-2">Formação Acadêmica</h4>
-              <p className="text-sm text-muted-foreground">
-                Adicione sua graduação e especializações aqui
-              </p>
+            {/* Education */}
+            <div className="mt-8 card-glow border-glow rounded-xl p-6">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                  <span className="font-display font-bold text-primary text-xl">U</span>
+                </div>
+                <div>
+                  <h4 className="font-semibold">Análise e Desenvolvimento de Sistemas</h4>
+                  <p className="text-sm text-muted-foreground">Uninassau • 7º Período</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

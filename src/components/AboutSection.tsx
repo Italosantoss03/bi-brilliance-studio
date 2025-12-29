@@ -39,18 +39,17 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Com mais de 5 anos de experiência em Business Intelligence, 
-                ajudo empresas a transformar grandes volumes de dados em 
-                informações estratégicas que impulsionam decisões de negócio.
+                Estudante de Análise e Desenvolvimento de Sistemas na Uninassau, 
+                atualmente no 7º período, com especialização em Power BI e SQL.
               </p>
               <p>
                 Minha abordagem combina expertise técnica em ferramentas como 
-                Power BI, SQL e Python com uma visão orientada ao negócio, 
+                Power BI e SQL com uma visão orientada ao negócio, 
                 garantindo que cada dashboard entregue valor real.
               </p>
               <p>
-                Especializado em criar soluções que não apenas visualizam dados, 
-                mas contam histórias e revelam oportunidades ocultas.
+                Apaixonado por transformar dados brutos em insights acionáveis 
+                que impulsionam a tomada de decisão estratégica.
               </p>
             </div>
 

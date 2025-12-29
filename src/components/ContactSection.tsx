@@ -6,20 +6,20 @@ const ContactSection = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "#",
-      username: "@seulinkedin",
+      href: "https://www.linkedin.com/in/%C3%ADtalo-santos-269b242a4/",
+      username: "Ítalo Santos",
     },
     {
       icon: Github,
       label: "GitHub",
-      href: "#",
-      username: "@seugithub",
+      href: "https://github.com/Italosantoss03",
+      username: "@Italosantoss03",
     },
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:seuemail@email.com",
-      username: "seuemail@email.com",
+      href: "mailto:Italosantos57053@gmail.com",
+      username: "Italosantos57053@gmail.com",
     },
   ];
 
