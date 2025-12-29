@@ -1,21 +1,22 @@
 import { Button } from "@/components/ui/button";
-import { ArrowUpRight, BarChart3, ShoppingCart, Package } from "lucide-react";
+import { ArrowUpRight, Building2, ShoppingCart, Package } from "lucide-react";
+import dashboardRgp from "@/assets/dashboard-rgp.png";
 
 const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "Dashboard de Vendas Regional",
-      category: "Análise de Vendas",
-      icon: BarChart3,
+      title: "Dashboard RGP - Gestão de Obras",
+      category: "Construção Civil",
+      icon: Building2,
       challenge:
-        "A empresa não conseguia visualizar a performance de vendas por região em tempo real, dificultando decisões estratégicas de expansão.",
+        "A construtora enfrentava dificuldades em monitorar o andamento das obras em tempo real, sem visibilidade clara sobre atividades atrasadas, responsáveis e gargalos operacionais.",
       solution:
-        "Desenvolvi um dashboard interativo em Power BI integrado com SQL Server, com KPIs de vendas, margem e crescimento por região, com atualização automática diária.",
+        "Desenvolvi um dashboard gerencial em Power BI que centraliza o controle de atividades OK, parciais e pendentes por obra, permitindo identificar rapidamente atrasos, responsáveis e justificativas para cada situação.",
       impact:
-        "Redução de 40% no tempo de análise gerencial e identificação de 3 regiões com potencial de crescimento não explorado.",
-      tools: ["Power BI", "SQL Server", "DAX"],
-      image: null, // Placeholder para o print
+        "Maior agilidade na tomada de decisão, com visão estratégica do status de cada obra e priorização assertiva de ações corretivas junto aos responsáveis.",
+      tools: ["Power BI", "SQL", "DAX"],
+      image: dashboardRgp,
     },
     {
       id: 2,
