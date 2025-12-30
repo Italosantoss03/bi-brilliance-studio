@@ -5,7 +5,7 @@ const SkillsSection = () => {
     { name: "Python", level: 75, category: "Programação" },
     { name: "Excel Avançado", level: 95, category: "Análise" },
     { name: "DAX", level: 85, category: "Fórmulas" },
-    { name: "ETL/Power Query", level: 88, category: "Transformação" },
+    { name: "ETL/Power Query", level: 97, category: "Transformação" },
   ];
 
   const certifications = [
@@ -24,7 +24,7 @@ const SkillsSection = () => {
   return (
     <section id="skills" className="py-32 relative bg-secondary/30">
       <div className="container mx-auto px-6">
-        {/* Section Header */}
+     
         <div className="text-center mb-16">
           <span className="text-primary font-medium text-sm uppercase tracking-wider mb-4 block">
             Habilidades & Certificações
