@@ -39,7 +39,7 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Estudante de Análise e Desenvolvimento de Sistemas na Uninassau, 
+                Estudante de Ciências da computação na Uninassau, 
                 atualmente no 7º período, com especialização em Power BI e SQL.
               </p>
               <p>
@@ -53,7 +53,7 @@ const AboutSection = () => {
               </p>
             </div>
 
-            {/* Quick Info */}
+          
             <div className="mt-8 flex flex-wrap gap-4">
               <div className="px-4 py-2 rounded-lg bg-secondary border border-border">
                 <span className="text-sm text-muted-foreground">Localização:</span>
