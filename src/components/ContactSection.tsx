@@ -8,7 +8,7 @@ const ContactSection = () => {
       label: "WhatsApp",
       href: ")81)98954-4196",
       username: "Ítalo Santos",
-    }
+    },
     {
       icon: Linkedin,
       label: "LinkedIn",
