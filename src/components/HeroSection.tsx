@@ -57,8 +57,8 @@ const HeroSection = () => {
           <div className="mt-20 grid grid-cols-3 gap-8 max-w-2xl mx-auto animate-fade-up opacity-0 delay-400">
             {[
               { value: "10+", label: "Projetos de BI" },
-              { value: "50+", label: "Dashboards Criados" },
-              { value: "5+", label: "Anos de Experiência" },
+              { value: "30+", label: "Dashboards Criados" },
+              { value: "1+", label: "Anos de Experiência" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="font-display text-3xl md:text-4xl font-bold text-gradient mb-2">
