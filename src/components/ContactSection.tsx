@@ -4,12 +4,6 @@ import { Mail, Linkedin, Github, Send } from "lucide-react";
 const ContactSection = () => {
   const socialLinks = [
     {
-      icon: WhatsApp,
-      label: "WhatsApp",
-      href: ")81)98954-4196",
-      username: "Ítalo Santos",
-    },
-    {
       icon: Linkedin,
       label: "LinkedIn",
       href: "https://www.linkedin.com/in/%C3%ADtalo-santos-269b242a4/",
